@@ -65,7 +65,7 @@ RAG_chat_with_docs/
 ## ✅ Example `.env` File
 
 ```
-TOGETHER_API_KEY=your_together_api_key_here
+TOGETHER_API_KEY=your_api_key_here
 ```
 
 ---
