@@ -54,7 +54,7 @@ streamlit run app.py
 ## 📂 Project Structure
 
 ```
-rag-app/
+RAG_chat_with_docs/
 │── app.py       # Main Streamlit application
 │── .env         # Your API key (not committed)
 │── README.md    # Documentation

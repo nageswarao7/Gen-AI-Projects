@@ -82,7 +82,7 @@ streamlit run app.py
 ## 📂 Project Structure
 
 ```
-task-automation-agent/
+Task_Automation_Agent/
 │── app.py          # Main Streamlit application
 │── .env            # Environment variables (not committed)
 │── README.md       # Documentation

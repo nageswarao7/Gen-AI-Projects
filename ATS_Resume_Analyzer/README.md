@@ -34,7 +34,7 @@ Built with **Streamlit** and **Together AI Llama-3.3-70B**, this app provides **
 
 ```
 
-ATS-Resume-Analyzer/
+ATS_Resume_Analyzer/
 │── app.py               # Streamlit application
 │── .env                 # API keys (not committed)
 │── README.md            # Documentation
