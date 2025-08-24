@@ -86,7 +86,7 @@ Task_Automation_Agent/
 │── app.py          # Main Streamlit application
 │── .env            # Environment variables (not committed)
 │── README.md       # Documentation
-│── notes.txt       # Auto-generated when saving notes
+│── notes.txt       # Auto-generated when saving note
 ```
 
 ---
