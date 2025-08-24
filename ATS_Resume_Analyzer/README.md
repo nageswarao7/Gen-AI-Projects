@@ -95,10 +95,3 @@ python-dotenv
    * Upload resume + paste job description.
    * Click **Calculate Match Score**.
    * See ATS Match %, keyword analysis, and experience alignment.
-
----
-
-## ⚠️ Disclaimer
-
-This tool provides **AI-generated suggestions**.
-Always review the results manually before applying to jobs.
