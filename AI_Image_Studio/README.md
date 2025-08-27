@@ -1,20 +1,20 @@
-# 🎨 AI Image Generator & Editor
+# 🎨 AI Image Studio
 
-An interactive **Streamlit application** powered by **Google Gemini models** that allows you to:
+An interactive **Streamlit application** powered by **Google Gemini models** that lets you:
 
 * 🖼️ **Generate AI images** from text prompts
-* ✂️ **Edit uploaded images** using AI instructions
+* ✂️ **Edit uploaded images** with natural language instructions
 * 🔎 **Ask questions about images** (Image Q\&A)
 
 ---
 
 ## 🚀 Features
 
-✅ Generate high-quality AI images from text prompts
-✅ Edit existing images with natural language instructions
-✅ Ask questions about uploaded images (e.g., "Caption this image")
-✅ Download generated/edited images
-✅ User-friendly Streamlit interface
+✅ Generate high-quality AI images from descriptive prompts
+✅ Edit uploaded images using AI-based modifications
+✅ Ask questions about uploaded images (e.g., *"What is in this picture?"* or *"Caption this image"*)
+✅ Download generated or edited images
+✅ Clean and responsive **Streamlit UI** with custom styling
 
 ---
 
@@ -22,16 +22,17 @@ An interactive **Streamlit application** powered by **Google Gemini models** tha
 
 ```
 AI_Image_Studio/
-│── app.py              # Main Streamlit app
-│── README.md           # Project documentation
+│── app.py              # Main Streamlit UI
+│── core.py             # Core logic for image generation, editing & Q&A
 │── .env                # Store your API key (not committed to Git)
+│── README.md           # Project documentation
 ```
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ Installation & Requirements
 
-Create a virtual environment and install dependencies:
+Create and activate a virtual environment, then install dependencies:
 
 ```bash
 pip install streamlit python-dotenv pillow google-genai
@@ -48,6 +49,8 @@ pip install streamlit python-dotenv pillow google-genai
 GOOGLE_API_KEY=your_api_key_here
 ```
 
+⚠️ **Do not hardcode your API key** inside the code. Always load it from `.env`.
+
 ---
 
 ## ▶️ Run the App
@@ -56,7 +59,7 @@ GOOGLE_API_KEY=your_api_key_here
 streamlit run app.py
 ```
 
-Then open the local URL in your browser (default: `http://localhost:8501`).
+Open the local URL in your browser (default: `http://localhost:8501`).
 
 ---
 
@@ -76,3 +79,4 @@ Then open the local URL in your browser (default: `http://localhost:8501`).
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
