@@ -76,7 +76,3 @@ TOGETHER_API_KEY=your_api_key_here
 * [ChromaDB](https://docs.trychroma.com/)
 * [SentenceTransformers](https://www.sbert.net/)
 * [Together AI](https://www.together.ai/)
-
----
-
-Do you also want me to add a **one-line “Quick Start” command** (like `pip install ... && streamlit run app.py`) so someone can run it in a single copy-paste?
