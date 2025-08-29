@@ -191,7 +191,7 @@ if prompt := st.chat_input("What would you like to know?"):
                     client = Together(api_key=together_api_key)
                     
                     response = client.chat.completions.create(
-                        model="meta-llama/Llama-3-8b-chat-hf",
+                        model="openai/gpt-oss-20b",
                         messages=[{"role": "user", "content": formatted_prompt}],
                         temperature=0.7,
                         max_tokens=512
