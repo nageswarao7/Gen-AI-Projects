@@ -26,8 +26,8 @@ An interactive **Streamlit application** powered by **Google Gemini models** tha
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-voice-app.git
-   cd ai-voice-app
+   git clone https://github.com/nageswarao7/Gen-AI-Projects.git
+   cd voice_bot
    ```
 
 2. Install the required packages:
