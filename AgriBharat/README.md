@@ -28,7 +28,7 @@ AgriBharat is a comprehensive, AI-driven application designed to empower Indian 
 
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/nageswarao7/Gen-AI-Projects.git
     cd AgriBharat
     ```
 
