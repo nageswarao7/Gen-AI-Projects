@@ -88,7 +88,21 @@ An interactive voice assistant powered by **Google Gemini**.
 
 ---
 
-## 🛠️ Tech Stack
+### 7️⃣ 🤖 Real-Time Q&A Agent
+
+A web-connected AI chatbot built with **Google ADK** that searches the web for real-time answers.
+
+* � **Real-time Web Search**: Fetches up-to-date info from the web
+* ⚡ **Google ADK**: Powered by Gemini 2.5 Pro
+* 🧠 **Session Management**: Maintains conversation context
+* 🚀 **Async Processing**: Fast and efficient responses
+
+📂 Folder: `Real_Time_QA_Agent/`
+📖 [Project README](./Real_Time_QA_Agent/README.md)
+
+---
+
+## �🛠️ Tech Stack
 
 * [Streamlit](https://streamlit.io/) – UI framework
 * [Together AI](https://www.together.ai/) – LLM inference
@@ -97,6 +111,7 @@ An interactive voice assistant powered by **Google Gemini**.
 * [ChromaDB](https://www.trychroma.com/) – Vector database
 * [PyMuPDF](https://pymupdf.readthedocs.io/) – PDF text extraction
 * [SentenceTransformers](https://www.sbert.net/) – Embeddings
+* [Google ADK](https://github.com/google/generative-ai-python) – Agent Development Kit
 
 ---
 
