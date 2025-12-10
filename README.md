@@ -60,6 +60,34 @@ A **LangChain-based AI Agent** powered by **Together AI**.
 
 ---
 
+### 5️⃣ 🌾 AgriBharat - AI-Powered Agricultural Assistant
+
+A comprehensive AI app for Indian farmers providing real-time insights and tools.
+
+* 🌾 **Crop Queries**: Expert advice on crops and soil
+* 🌿 **Disease Diagnosis**: Identify plant diseases from leaf images
+* 💰 **Market Analysis**: Real-time trends and prices
+* ☁️ **Weather Forecast**: Local weather updates
+* 🗣️ **Multi-Lingual**: Support for 6 Indian languages with voice interaction
+
+📂 Folder: `AgriBharat/`
+📖 [Project README](./AgriBharat/README.md)
+
+---
+
+### 6️⃣ 🎙️ AI Voice-to-Text & Chat App
+
+An interactive voice assistant powered by **Google Gemini**.
+
+* 🎤 **Voice Recording**: Record audio directly in browser
+* 🧠 **Speech-to-Text**: Accurate transcription using Gemini
+* 💬 **AI Chat**: Contextual responses to voice inputs
+
+📂 Folder: `voice_bot/`
+📖 [Project README](./voice_bot/README.md)
+
+---
+
 ## 🛠️ Tech Stack
 
 * [Streamlit](https://streamlit.io/) – UI framework
