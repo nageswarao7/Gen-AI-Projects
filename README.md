@@ -115,7 +115,14 @@ A web-connected AI chatbot built with **Google ADK** that searches the web for r
 
 ---
 
-## 📜 License
+## �‍💻 Author
+
+**Nageswara Rao Vutla**
+* Machine Learning and Generative AI Engineer
+
+---
+
+## �📜 License
 
 This repository is licensed under the **MIT License**.
 
