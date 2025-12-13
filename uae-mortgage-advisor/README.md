@@ -4,11 +4,11 @@
 **Challenge**: "The Anti-Calculator" – Build an AI agent that acts like a smart friend to guide UAE expats through the mortgage maze (buy vs. rent decision).
 
 ## Live Demo
-**Test the bot immediately**: https://your-app-name.streamlit.app  
-*(Replace with your actual Streamlit Community Cloud URL after deployment)*
+**Test the bot immediately**: https://gen-ai-projects-u8qggqetagxa2leqbecarp.streamlit.app/ 
+
 
 ## Repository
-https://github.com/yourusername/coinedone-anti-calculator
+https://github.com/nageswarao7/Gen-AI-Projects/tree/main/uae-mortgage-advisor
 
 ## Project Overview
 A fully conversational AI mortgage advisor that helps UAE expats decide whether to **buy or rent** — replacing cold, emotionally useless calculators with warm, empathetic guidance.
@@ -27,7 +27,7 @@ Built and shipped in under 24 hours.
 - **LLM**: Gemini 2.5 Flash (`gemini-2.5-flash`)  
   → Chosen for excellent function calling reliability, low latency, strong natural language tone, and cost efficiency.
 
-- **Framework**: Streamlit + Google Generative AI SDK (`google-generativeai`)  
+- **Framework**: Streamlit + Google Generative AI SDK (`google-genai`)  
   → Used the official SDK directly (no LangChain, no Vercel AI SDK) for maximum control over tool registration, conversation history, and function call flow. This ensures reliable tool usage and easy debugging.
 
 - **Function Calling / Tools**: Native Gemini tool integration  
@@ -96,10 +96,10 @@ Aggressively leveraged AI-native tools to ship a polished, reliable product at h
 
 ## How to Run Locally
 ```bash
-git clone https://github.com/yourusername/coinedone-anti-calculator.git
-cd coinedone-anti-calculator
+git clone https://github.com/nageswarao7/Gen-AI-Projects.git
+cd uae-mortgage-advisor
 
-pip install streamlit google-genai python-dotenv
+pip install -r requirements.txt
 
 # Create .env file
 "GOOGLE_API_KEY=your_gemini_api_key_here" > .env
