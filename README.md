@@ -111,7 +111,7 @@ A web-connected AI chatbot built with **Google ADK** that searches the web for r
 * [ChromaDB](https://www.trychroma.com/) – Vector database
 * [PyMuPDF](https://pymupdf.readthedocs.io/) – PDF text extraction
 * [SentenceTransformers](https://www.sbert.net/) – Embeddings
-* [Google ADK](https://github.com/google/generative-ai-python) – Agent Development Kit
+* [Google ADK](https://google.github.io/adk-docs/) – Agent Development Kit
 
 ---
 
